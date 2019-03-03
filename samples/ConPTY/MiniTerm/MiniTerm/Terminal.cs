@@ -19,6 +19,8 @@ namespace MiniTerm
 
         public Terminal()
         {
+            Console.WindowWidth = 130;
+            Console.WindowHeight = 42;
             EnableVirtualTerminalSequenceProcessing();
         }
 
